@@ -123,8 +123,6 @@ with col1:
     st.image("logo_tayudo.png", width=80)
 with col2:
     st.title("Calculadora de Score Financiero - Tayudo")
-
-st.title("Calculadora de Score Financiero - Tayudo")
 st.header("Paso 1: Datos del cliente (para ingresar por el vendedor)")
 
 dias = st.number_input("Días desde la última compra", 0, 365)
