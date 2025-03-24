@@ -20,11 +20,11 @@ def calcular_score_parcial(
     else:
         score_recencia = 1
 
-    if monto_compra > 5000:
+    if monto_compra > 2000:
         score_monto = 10
-    elif monto_compra > 3000:
-        score_monto = 7
     elif monto_compra > 1000:
+        score_monto = 7
+    elif monto_compra > 300:
         score_monto = 4
     else:
         score_monto = 1
