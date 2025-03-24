@@ -118,6 +118,7 @@ def calcular_monto_otorgar(monto_compra, score_final):
     return round(monto_otorgar, 2), porcentaje
 
 # Interfaz visual
+st.image("Logo.png", width=150)
 st.title("Calculadora de Score Financiero - Tayudo")
 st.header("Paso 1: Datos del cliente (para ingresar por el vendedor)")
 
