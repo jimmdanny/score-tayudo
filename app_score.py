@@ -120,7 +120,7 @@ def calcular_monto_otorgar(monto_compra, score_final):
 # Interfaz visual
 col1, col2 = st.columns([1, 5])
 with col1:
-    st.image("logo_tayudo.png", width=80)
+    st.image("Logo.png", width=80)
 with col2:
     st.title("Calculadora de Score Financiero - Tayudo")
 st.header("Paso 1: Datos del cliente (para ingresar por el vendedor)")
